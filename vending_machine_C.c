@@ -1,3 +1,19 @@
+/*
+ ============================================================================
+    Vending Machine Program in C
+    Contributors: 
+      - Dr. Tajeddine Rachidi
+      - Maria Chmite (@MariaChmite)
+      - Salim El Ghersse (@SalimElGhersse)
+     
+
+    Description:
+    - Interactive vending machine program that allows users to select drinks.
+    - Manages stock for coffee, tea, and hot cocoa.
+    - Implements basic payment handling and temperature control.
+ ============================================================================
+*/
+
 #include <stdio.h>
 #include <windows.h>
 #include <windowsx.h>
