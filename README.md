@@ -1,60 +1,54 @@
-🥤 Vending Machine in C
+# 🥤 Vending Machine in C  
 
-A simple C-based vending machine program that allows users to select beverages, manage inventory, and dynamically adjust temperatures.
+A simple **C-based vending machine** program that allows users to select beverages, manage inventory, and dynamically adjust temperatures.  
 
-📌 Features
+## 📌 Features  
+✅ Interactive menu for selecting drinks  
+✅ Manages stock for coffee, tea, and hot cocoa  
+✅ Dynamic temperature adjustment for beverages  
+✅ Basic payment handling system  
 
-👉 Interactive menu for selecting drinks👉 Manages stock for coffee, tea, and hot cocoa👉 Dynamic temperature adjustment for beverages👉 Basic payment handling system
+## 🛠 Technologies Used  
+- **Programming Language:** C  
+- **Libraries:** Windows API (`winmm.lib` for sound effects)  
 
-🛠️ Technologies Used
+## 🚀 How to Compile & Run  
 
-Programming Language: C
+### **Using GCC on Windows**  
+1. Open **Command Prompt (cmd) or Terminal** in the project folder.  
+2. Run the following command to compile:  
+   ```sh  
+   gcc -o vending_machine.exe vending_machine_C.c -lwinmm  
+   ```  
+3. Run the program:  
+   ```sh  
+   vending_machine.exe  
+   ```  
 
-Libraries: Windows API (winmm.lib for sound effects)
+### **Using GCC on Linux/macOS**  
+1. Open a terminal and compile:  
+   ```sh  
+   gcc -o vending_machine vending_machine_C.c  
+   ```  
+2. Run the program:  
+   ```sh  
+   ./vending_machine  
+   ```  
 
-🚀 How to Compile & Run
+## 👥 Contributors  
+- **Maria Chmite** - [@MariaChmite](https://github.com/MariaChmite)  
+- **Salim El Ghersse** - [@SalimElGhersse](https://github.com/SalimElGhersse)  
 
-Using GCC on Windows
+🔥 Special thanks to all contributors who helped improve this project!  
 
-Open Command Prompt (cmd) or Terminal in the project folder.
+## 🙏 Special Thanks  
+A huge thank you to **Dr. Tajeddine Rachidi** for his guidance and support throughout this project. Your insights and expertise have been invaluable. 🎓  
 
-Run the following command to compile:
+## 📜 License  
+This project is **open-source** and free to use. Feel free to improve it! 🚀  
 
-gcc -o vending_machine.exe vending_machine_C.c -lwinmm  
+## 📫 Connect With Us  
+💡 **Maria Chmite** – [GitHub](https://github.com/MariaChmite) | [LinkedIn](https://linkedin.com/in/maria-chmite)  
+💡 **Salim El Ghersse** – [GitHub](https://github.com/SalimElGhersse)  
 
-Run the program:
-
-vending_machine.exe  
-
-Using GCC on Linux/macOS
-
-Open a terminal and compile:
-
-gcc -o vending_machine vending_machine_C.c  
-
-Run the program:
-
-./vending_machine  
-
-👥 Contributors
-
-Maria Chmite - @MariaChmite
-
-Salim El Ghersse - @SalimElGhersse
-
-🔥 Special thanks to all contributors who helped improve this project!
-
-🙏 Special Thanks
-
-A huge thank you to Dr. Tajeddine Rachidi for his guidance and support throughout this project. Your insights and expertise have been invaluable. 🎓
-
-📄 License
-
-This project is open-source and free to use. Feel free to improve it! 🚀
-
-💌 Connect With Us
-
-💡 Maria Chmite – GitHub | LinkedIn💡 Salim El Ghersse – GitHub
-
-🎉 Enjoy coding & keep innovating! 🚀
-
+🎉 **Enjoy coding & keep innovating!** 🚀
